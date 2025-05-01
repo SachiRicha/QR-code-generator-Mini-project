@@ -1,0 +1,72 @@
+/* * {
+    background-color: crimson;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: crimson;
+    box-sizing: border-box;
+}
+/* .container {
+    background-color: crimson;
+} */
+.card {
+    width: 400px;
+    padding: 25px 35px;
+    /* height: 400px; */
+    border: 2px solid black;
+    /* display: grid;
+    place-content: center; */
+    border-radius: 10px;
+    /* to keep the card in center */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    text-align: center;
+}
+
+#qrText {
+    padding: 5px;
+    border-radius: 5px ;
+    width: 270px;
+    height: 30px;
+    border: 2px solid black;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.qrcodeContainer {
+  transition: max-height 1s;
+}
+
+#qrImage {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#in-btn {
+    padding: 5px;
+    border-radius: 5px ;
+    width: 270px;
+    height: 30px;
+    border : 2px solid black;
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+#btn-2 {
+    /* border: 2px solid black; */
+    text-align: center;   
+}
+
+button:hover {
+    background-color: cornflowerblue;
+    color: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
